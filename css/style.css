@@ -1,0 +1,61 @@
+/* Extra small devices (portrait phones, less than 576px)
+No media query since this is the default if you use "mobile first" */
+/* Small devices (landscape phones, 576px and up) */
+
+main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+main h1
+{
+    font-size: 55px;
+    color: #102A42;
+    font-weight: 600;
+}
+main span
+{
+    font-size: 100px;
+    font-weight: 600;
+}
+main div
+{
+    margin-top: 30px;
+}
+main div button
+{
+    text-align: center;
+    border: 2px solid #222222 ;
+    color: #222222;
+    background-color: transparent;
+    padding: 5px 10px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin-top: 10px;
+    transition: all .5s;
+    margin-right: 10px;
+}
+main div button:hover
+{
+    background-color:#222222 ;
+    color: #fff;
+}
+
+
+@media (min-width: 576px) {
+}
+/* Medium devices (tablets, 768px and up)
+ */
+@media (min-width: 768px) {
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
